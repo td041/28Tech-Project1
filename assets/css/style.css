@@ -1,0 +1,164 @@
+@import url('https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+:root{
+    --color-main: #003459;
+    --dark:#00171F;
+    --light:#667479;
+    --white:#FDFDFD;
+    --font: "Be Vietnam Pro", sans-serif;
+}
+*{
+    box-sizing:border-box;
+}
+body{
+    margin:0;
+    font-family:var(--font);
+    line-height:1.4;
+}
+a{
+    text-decoration: none;
+}
+.button{
+    display: inline-flex;
+    justify-content: center;
+    background-color: var(--color-main);
+    color:var(--white);
+    height: 44px;
+    padding: 0 28px;
+    align-items: center;
+    border-radius: 57px;
+}
+.container{
+    width: 1180px;
+    margin: 0 auto;
+}
+/* Button-Outline */
+.button-outline{
+    display: inline-flex;
+    align-items: center;
+    border: 1.5px solid var(--color-main);
+    border-radius: 57px;
+    font-weight: 500;
+    font-size: 16px;
+    height:44px;
+    color:var(--color-main);
+    padding: 12px 28px;
+}
+/* Header */
+.header .innner-wrap{
+    display: flex;
+    gap: 14px;
+    align-items: center;
+}
+.header{
+    padding-top:28px;
+    padding-bottom: 28px;
+}
+.header .logo img{
+    width: auto;
+    height: 40px;
+}
+.header .menu{
+    flex:1;
+    text-align: center;
+}
+.header .menu ul{
+    list-style: none;
+    display: inline-flex;
+    gap: 48px;
+}
+.header .menu ul a{
+    color: var(--color-main);
+    font-weight: 700;
+    font-size: 16px;
+}
+.header .form button{
+    font-size: 16.5px;
+    color: var(--light);
+    background-color: transparent;
+    border: none;
+}
+.header .form input{
+    font-size: 14px;
+    font-weight: 500;
+    color:#99A2A5;
+    text-align: left;
+    outline: none;
+    border:none;
+    background-color: transparent;
+}
+.header .form{
+    display: inline-flex;
+    gap: 12px;
+    padding: 0 16px;
+    height: 44px;
+    width: 280px;
+    background-color: #F3F3F3;
+    border: 0 ;
+    border-radius: 46px;
+}
+.header .inner-button{
+    margin-left: 10px;
+    height: 44px;
+    padding: 0 28px;
+    font-weight: 700;
+    font-size: 16px;
+    background-color: var(--color-main);
+    color: var(--white);
+}
+/* Section */
+.section-1 .inner-title{
+    position: relative;
+    margin-bottom: 24px;
+}
+.inner-content{
+    position: relative;
+    z-index: 1;
+    width: 50%;
+    color: #002A48;
+    padding-top: 80px;
+    padding-right: 76px;
+}
+.section-1 .inner-content .inner-bg-1{
+    position: absolute;
+    top: 75px;
+    left: -10px;
+}
+.inner-image{
+    width: 50%;
+}
+.inner-image img{
+    padding-right: 74px;
+    width: 100%;
+    display: block;
+}
+.section-1{
+    background: linear-gradient(102.87deg, #FCEED5 6.43%, #FCEED5 78.33%, #FFE7BA 104.24%);
+    margin-top:-100px;
+    padding-top: 100px;
+}
+.section-1 .inner-wrap{
+   display: flex;
+}
+.section-1 .desc{
+    font-size: 16px;
+    font-weight: 500;   
+    margin-bottom: 34px;
+}
+.section-1 .main-title{
+    font-size: 60px;
+    font-weight: 700;
+}
+.section-1 .sub-title{
+    font-size: 46px;
+    font-weight: 700;
+    
+}
+.section-1 .inner-button{
+    display: inline-flex;
+    gap:18px;
+    flex-wrap: wrap;
+}
+.section-1 .inner-button .button-outline{
+    gap: 10px;
+}
+
